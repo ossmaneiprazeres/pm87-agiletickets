@@ -35,7 +35,7 @@ public class SessaoTest {
 		sessao.setTotalIngressos(5);
 
 		sessao.reserva(3);
-		Assert.assertEquals(2, sessao.getIngressosDisponiveis().intValue());
+		Assert.assertEquals(1, sessao.getIngressosDisponiveis().intValue());
 	}
 	
 }
